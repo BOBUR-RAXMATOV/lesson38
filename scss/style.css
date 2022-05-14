@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #9f9f9f;
+}
+
+header button {
+  color: white;
+  background-color: blue;
+  padding: 10px 20px;
+  border-radius: 15px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+header button:hover {
+  background-color: red;
+}
+
+#one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 600px;
+  background-color: grey;
+  padding-top: 100px;
+}
+
+#one h1 {
+  font-size: 55px;
+  color: white;
+}
+
+#one p {
+  color: white;
+}
+
+#one .imgg {
+  position: relative;
+}
+
+#one .imgg::before {
+  content: "";
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#one img {
+  height: 400px;
+  position: absolute;
+  left: 50px;
+  z-index: 1000;
+}
+
+#one .img2 {
+  position: absolute;
+  height: 250px;
+  top: 130px;
+  left: 300px;
+  z-index: 1000;
+}
+
+#one button {
+  margin-left: 10px;
+}
+
+#one .btn2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#one .btn2 .but1 {
+  color: black;
+  background-color: white;
+}
+
+#one .btn2 .but2 {
+  color: white;
+  background-color: black;
+}
+
+#one .btn2 .icon_h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#one .btn2 .icon_h3 i {
+  font-size: 30px;
+  padding: 10px 10px;
+}
+
+#one .btn2 .icon_h3 h3 {
+  padding: 10px 10px;
+}
+/*# sourceMappingURL=style.css.map */
